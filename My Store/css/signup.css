@@ -1,0 +1,67 @@
+/* build your own custom Bootstrap theme:
+   https://themestr.app
+*/
+
+#main-bg{
+    text-align:center;
+    margin-top:30px;
+
+}
+
+.page-title{
+    margin-bottom:30px;
+}
+
+.form-actions{
+    margin:30px 0;
+}
+
+input{
+    border-style:solid;
+
+}
+
+.card{
+    /*background-color:gray;*/
+    text-align:center;
+}
+.container-fluid{
+  background-color: #93BCF0 ;
+}
+body{
+  background-color: #93BCF0 ;
+}
+h5{
+
+  font-size: 2rem;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffff;
+}
+.login{
+
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+}
+.forgot-pwd{
+
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+}
+.different-account{
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+}
+.ms-1{
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+}
+.p{
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+}
+.form-control-lg{
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+}

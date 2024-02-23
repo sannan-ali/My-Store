@@ -1,0 +1,212 @@
+body {
+    background-color: #93BCF0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.Sannan {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffff;
+    padding-top: 60px;
+    padding-left: 20px;
+    font-size: 5rem;
+}
+
+/* Global Styles */
+header {
+    background-color: #93BCF0;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    header {
+        display: block;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+
+.header {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+.double-tick {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto; /* Center the images horizontally */
+    display: block; /* Ensures the images are displayed as block elements */
+}
+
+.images-section {
+    text-align: center; /* Center the images horizontally within the section */
+    margin-top: 50px; /* Adjust as needed */
+}
+
+/* Additional styling for the second page content */
+h1 {
+    text-align: center; /* Center the heading */
+    margin-top: 50px; /* Adjust as needed */
+}
+.truck{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto; /* Center the images horizontally */
+  display: block; /* Ensures the images are displayed as block elements */
+padding-top: 120px;
+}
+.authentic{
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffff;
+
+}
+.fastest-delievery{
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffff;
+
+}
+.items-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
+  background-color: #ffff;
+  width: calc(50% - 10px); /* 50% width with space between */
+  height: 300px;
+  margin-bottom: 20px; /* Space between images */
+  box-sizing: border-box;
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+.item-1:hover,
+.item-2:hover,
+.item-3:hover,
+.item-4:hover {
+  transform: scale(1.05); /* Increase scale on hover */
+}
+
+@media (min-width: 768px) {
+  .item-1,
+  .item-2,
+  .item-3,
+  .item-4 {
+    width: calc(50% - 10px); /* Two images in one line for laptops */
+  }
+}
+
+@media (min-width: 992px) {
+  .item-1,
+  .item-2,
+  .item-3,
+  .item-4 {
+    width: calc(25% - 10px); /* Four images in one line for PCs */
+  }
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+
+  }
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  th {
+    background-color: #f2f2f2;
+}
+.items-list{
+  padding-bottom: 70px;
+  margin-bottom: 40px;
+  margin-top: 80px;
+}
+.Why-us{
+  border-bottom-width: 0px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    font-size: 3rem;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #ffff;
+}
+
+.shopping-1,.shopping-2,.shopping-3,.shopping-4{
+  width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      margin: 10px;
+      height: 300px;
+    width: 300px;
+}
+.fourth{
+  margin-top: 0px;
+    margin-bottom: 70px;
+}
+.first, .second, .third, .fourth{
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #ffff;
+  font-size: 3rem;
+}
